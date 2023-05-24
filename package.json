@@ -1,8 +1,7 @@
 {
-  "name": "renovamen-blog",
+  "name": "neuro-sama-mods",
   "private": true,
   "scripts": {
-    "clean": "rimraf blog/.vuepress/.temp blog/.vuepress/.cache blog/.vuepress/dist",
     "dev": "vuepress-cli dev blog --clean-cache",
     "build": "pnpm clean && vuepress-cli build blog --clean-cache",
     "serve": "serve blog/.vuepress/dist"
