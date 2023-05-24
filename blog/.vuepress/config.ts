@@ -5,8 +5,8 @@ import { gungnirTheme } from "vuepress-theme-gungnir";
 const isProd = process.env.NODE_ENV === "production";
 
 export default defineUserConfig({
-  title: "Xiaohan Zou",
-  description: "Xiaohan Zou (Renovamen) is a dragon lost in human world.",
+  title: "Neuro-sama Mods",
+  description: "Made for the Swarm by Kaz.",
 
   head: [
     [
@@ -44,74 +44,31 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: gungnirTheme({
-    repo: "Renovamen/blog.zxh.io",
+    repo: "knettidev/neuro-mods",
     docsDir: "blog",
     docsBranch: "master",
-
-    hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
+    navbarTitle: "Home",
 
     // personal information
     personalInfo: {
-      name: "Renovamen",
+      name: "Neuro-sama Mods",
       avatar: "/img/avatar.jpg",
-      description: "いつか、私がヒトじゃなくなっても",
-      sns: {
-        github: "Renovamen",
-        linkedin: "xiaohan-zou",
-        // facebook: "renovamen.zou",
-        twitter: "renovamen_zxh",
-        zhihu: "chao-neng-gui-su",
-        email: "renovamenzxh@gmail.com",
-        rss: "/rss.xml"
-      }
+      description: "Made for the Swarm by Kaz.",
     },
 
     // header images on home page
     homeHeaderImages: [
       {
-        path: "/img/home-bg/1.jpg",
+        path: "/img/home-bg/6.png",
         mask: "rgba(40, 57, 101, .4)"
-      },
-      {
-        path: "/img/home-bg/2.jpg",
-        mask: "rgba(196, 176, 131, .1)"
-      },
-      {
-        path: "/img/home-bg/3.jpg",
-        mask: "rgba(68, 74, 83, .1)"
-      },
-      {
-        path: "/img/home-bg/4.jpg",
-        mask: "rgba(19, 75, 50, .2)"
-      },
-      {
-        path: "/img/home-bg/5.jpg"
       }
     ],
-
-    // other pages
-    pages: {
-      tags: {
-        subtitle: "Black Sheep Wall",
-        bgImage: {
-          path: "/img/pages/tags.jpg",
-          mask: "rgba(211, 136, 37, .5)"
-        }
-      },
-      links: {
-        subtitle:
-          "When you are looking at the stars, please put the brightest star shining night sky as my soul.",
-        bgImage: {
-          path: "/img/pages/links.jpg",
-          mask: "rgba(64, 118, 190, 0.5)"
-        }
-      }
-    },
 
     themePlugins: {
       // only enable git plugin in production mode
       git: isProd,
       katex: true,
+      readingTime: false,
       giscus: {
         repo: "This-is-an-Apple/blog-giscus-comments",
         repoId: "R_kgDOGl2SjQ",
@@ -132,34 +89,16 @@ export default defineUserConfig({
 
     navbar: [
       {
-        text: "Home",
-        link: "/",
-        icon: "fa-fort-awesome"
-      },
-      {
         text: "Tags",
         link: "/tags/",
         icon: "fa-tag"
       },
-      {
-        text: "Links",
-        link: "/links/",
-        icon: "fa-satellite-dish"
-      },
-      {
-        text: "About",
-        link: "https://zxh.io",
-        icon: "fa-paw"
-      },
-      {
-        text: "Portfolio",
-        link: "https://portfolio.zxh.io/",
-        icon: "oi-rocket"
-      }
     ],
 
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2022
+      &copy; Kaz 2023
+      <br>
+      Background by <a href="https://www.pixiv.net/en/users/25170019" target="_blank">Rune</a>
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>

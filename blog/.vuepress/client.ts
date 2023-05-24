@@ -14,7 +14,8 @@ import {
   HiMail,
   FaPaw,
   AiCv,
-  AiGoogleScholarSquare
+  AiGoogleScholarSquare,
+  FaSteamSymbol
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -31,7 +32,8 @@ addIcons(
   HiMail,
   FaPaw,
   AiCv,
-  AiGoogleScholarSquare
+  AiGoogleScholarSquare,
+  FaSteamSymbol
 );
 
 export default defineClientConfig({});
