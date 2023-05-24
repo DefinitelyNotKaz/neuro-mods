@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "vuepress-cli dev blog --clean-cache",
-    "build": "pnpm clean && vuepress-cli build blog --clean-cache",
+    "build": "vuepress-cli build blog --clean-cache",
     "serve": "serve blog/.vuepress/dist"
   },
   "devDependencies": {
