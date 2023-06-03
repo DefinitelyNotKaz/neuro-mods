@@ -48,6 +48,7 @@ export default defineUserConfig({
     docsDir: "blog",
     docsBranch: "master",
     navbarTitle: "Home",
+    editLink: false,
 
     // personal information
     personalInfo: {
@@ -59,32 +60,18 @@ export default defineUserConfig({
     // header images on home page
     homeHeaderImages: [
       {
-        path: "/img/home-bg/6.png",
+        path: "/img/home-bg/neuro.png",
         mask: "rgba(40, 57, 101, .4)"
       }
     ],
 
     themePlugins: {
       // only enable git plugin in production mode
-      git: isProd,
       katex: true,
       readingTime: false,
-      giscus: {
-        repo: "This-is-an-Apple/blog-giscus-comments",
-        repoId: "R_kgDOGl2SjQ",
-        category: "Announcements",
-        categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-        darkTheme: "https://blog.zxh.io/styles/giscus-dark.css"
-      },
       mdPlus: {
         all: true
       },
-      ga: "G-HCQSX53XFG",
-      ba: "75381d210789d3eaf855fa16246860cc",
-      rss: {
-        siteURL: "https://blog.zxh.io",
-        copyright: "Renovamen 2018-2022"
-      }
     },
 
     navbar: [

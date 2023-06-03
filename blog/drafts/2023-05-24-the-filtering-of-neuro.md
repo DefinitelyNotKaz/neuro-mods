@@ -5,7 +5,7 @@ subtitle: Theme Pack
 author: Kaz
 date: 2023-04-24
 useHeaderImage: true
-headerImage: /img/in-post/2022-01-29/header.jpeg
+headerImage: /img/in-post/2023/isaac/tfon.png
 headerMask: rgb(65, 48, 30, .4)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
