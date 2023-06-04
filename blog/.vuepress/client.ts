@@ -15,7 +15,8 @@ import {
   FaPaw,
   AiCv,
   AiGoogleScholarSquare,
-  FaSteamSymbol
+  FaSteamSymbol,
+  FaGoogleDrive
 } from "oh-vue-icons/icons";
 
 addIcons(
@@ -33,7 +34,8 @@ addIcons(
   FaPaw,
   AiCv,
   AiGoogleScholarSquare,
-  FaSteamSymbol
+  FaSteamSymbol,
+  FaGoogleDrive
 );
 
 export default defineClientConfig({});
