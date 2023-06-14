@@ -9,7 +9,7 @@ headerImage: /img/in-post/2023/msfs/a320neo/banner.jpg
 headerMask: rgb(0, 0, 0, .8)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
-  - MFSFS
+  - MSFS
 ---
 
 Neuro has a Fun AIrline.
