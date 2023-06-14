@@ -12,7 +12,7 @@ tags:
   - Portal
 ---
 
-Neuri has a Fun AIrline.
+Neuro has a Fun AIrline.
 
 <!-- more -->
 
