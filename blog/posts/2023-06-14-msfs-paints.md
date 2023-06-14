@@ -5,7 +5,7 @@ subtitle: Paintjobs
 author: Kaz
 date: 2023-06-04
 useHeaderImage: true
-headerImage: /img/in-post/2023/msfs/banner.jpg
+headerImage: /img/in-post/2023/msfs/a320neo/banner.jpg
 headerMask: rgb(0, 0, 0, .8)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
@@ -16,9 +16,9 @@ Neuri has a Fun AIrline.
 
 <!-- more -->
 
-## ASOBO Airbust A320Neo
+## ASOBO Airbus A320Neo
 
-![Fun Air A320](/img/in-post/2023/msfs/fs_runway.jpg, "A320Neo with FunAir livery.")
+![Fun Air A320](/img/in-post/2023/msfs/a320neo/fs_runway.jpg "A320Neo with FunAir livery.")
 
 ## Installation
 
@@ -26,14 +26,14 @@ The installation is very simple just unzip it into your community folder! But wh
 
 If you don't have the Dev tools toggled on, first go to "Options" then to "General Options" and in the "DEVELOPERS" tab toggle on "DEVELOPER MODE".
 
-![Dev Mode](/img/in-post/2023/msfs/dev_options.jpg, "Screenshot showing the developer mode toggle.")
+![Dev Mode](/img/in-post/2023/msfs/a320neo/dev_options.jpg "Screenshot showing the developer mode toggle.")
 
 On the new menu that shows up at the top, go to "Tools" and toggle "Virtual File System", that'll open a new window in which you need to expand "Packages Folder" and finally click "Open Community Folder".
 
-![VFS Tab](/img/in-post/2023/msfs/dev_vfs, "Navigating to the Community folder ingame.")
+![VFS Tab](/img/in-post/2023/msfs/a320neo/dev_vfs.png "Navigating to the Community folder ingame.")
 
 Now you just need to unzip the mod, once that is done, I'd recommend toggling dev mode off and restart the game!
-![Install mod](/img/in-post/2023/msfs/extract_mod.png, 'Unizpping mod.')
+![Install mod](/img/in-post/2023/msfs/a320neo/extract_mod.png 'Unizpping mod.')
 
 ## Download
 
